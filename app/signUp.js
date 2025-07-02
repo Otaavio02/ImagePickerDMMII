@@ -108,7 +108,7 @@ export default function SignUp() {
                         />
                     ) : (
                         <View className="flex-1 items-center">
-                            <Button title="Escolha uma imagem" onPress={imagePicker} />
+                            <Button title="Escolha uma imagem" onPress={pickImage} />
                         </View>
                     )}
                 </View>
